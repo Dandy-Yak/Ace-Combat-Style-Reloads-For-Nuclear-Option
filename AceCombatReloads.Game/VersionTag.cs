@@ -19,6 +19,8 @@ public static class VersionTag
 	{
 		MethodInfo getter = AccessTools.PropertyGetter(typeof(Application), "version");
 		Patches.Try(h, "Application.version (lobby/join version tag " + Tag + ")", getter, null, "VersionPostfix", null, typeof(VersionTag));
+		// Players can only see and join each other when this line matches exactly on both machines.
+		Plugin.Log.LogInfo((object)("[version] lobby version: " + Application.version));
 	}
 
 	private static void VersionPostfix(ref string __result)
