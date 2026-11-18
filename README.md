@@ -1,6 +1,7 @@
 # Ace Combat Reloads
 
 A BepInEx 5 mod for Nuclear Option that gives aircraft in-flight reload reserves (missiles, bombs, rockets, guns, flares and chaff) with timed reloads, Ace Combat style.
+Designed to be used alongside my Non Critical Damage mod, for an authentic Ace Combat Experience https://github.com/Dandy-Yak/Non-Critical-Damage-For-Nuclear-Option
 
 ## Features
 - Per-weapon reserve and reload time, editable in the config (or with Configuration Manager).
