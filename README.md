@@ -23,4 +23,4 @@ A BepInEx 5 mod for Nuclear Option that gives aircraft in-flight reload reserves
 `dotnet build -c Release -p:GamePath="D:\Games\Nuclear Option"`
 
 ## Credits
-Created by YOUR_NAME, with the first version written by FRIEND_NAME. Developed with AI assistance.
+Created by Dandy_Yak, with the first version written by Astrogator. Developed with AI assistance.
